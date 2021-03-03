@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="291.0" prefWidth="501.0" style="-fx-background-color: #1D1D1D; -fx-border-color: #FFEAFF;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerEditView">
+   <children>
+      <VBox layoutX="14.0" layoutY="13.0" prefHeight="265.0" prefWidth="124.0" style="-fx-border-color: #FFEAFF; -fx-border-width: 0.5;">
+         <children>
+            <Pane fx:id="pane1" onMouseClicked="#Clicked1" prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: #FFEAFF;">
+               <children>
+                  <Text fill="#ffeaff" layoutX="58.0" layoutY="14.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+                     <font>
+                        <Font name="Times New Roman" size="12.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <Pane fx:id="pane2" onMouseClicked="#Clicked2" prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: #FFEAFF;">
+               <children>
+                  <Text fill="#ffeaff" layoutX="58.0" layoutY="14.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2">
+                     <font>
+                        <Font name="Times New Roman" size="12.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <Pane fx:id="pane3" onMouseClicked="#Clicked3" prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: #FFEAFF;">
+               <children>
+                  <Text fill="#ffeaff" layoutX="58.0" layoutY="14.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3">
+                     <font>
+                        <Font name="Times New Roman" size="12.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <Pane fx:id="pane4" onMouseClicked="#Clicked4" prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: #FFEAFF;">
+               <children>
+                  <Text fill="#ffeaff" layoutX="58.0" layoutY="14.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4">
+                     <font>
+                        <Font name="Times New Roman" size="12.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <Pane fx:id="pane5" onMouseClicked="#Clicked5" prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: #FFEAFF;">
+               <children>
+                  <Text fill="#ffeaff" layoutX="58.0" layoutY="14.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5">
+                     <font>
+                        <Font name="Times New Roman" size="12.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <Pane fx:id="pane6" onMouseClicked="#Clicked6" prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: #FFEAFF;">
+               <children>
+                  <Text fill="#ffeaff" layoutX="58.0" layoutY="14.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6">
+                     <font>
+                        <Font name="Times New Roman" size="12.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <Pane fx:id="pane7" onMouseClicked="#Clicked7" prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: #FFEAFF;">
+               <children>
+                  <Text fill="#ffeaff" layoutX="58.0" layoutY="14.0" strokeType="OUTSIDE" strokeWidth="0.0" text="7">
+                     <font>
+                        <Font name="Times New Roman" size="12.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <Pane fx:id="pane8" onMouseClicked="#Clicked8" prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: #FFEAFF;">
+               <children>
+                  <Text fill="#ffeaff" layoutX="58.0" layoutY="14.0" strokeType="OUTSIDE" strokeWidth="0.0" text="8">
+                     <font>
+                        <Font name="Times New Roman" size="12.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <Pane fx:id="pane9" onMouseClicked="#Clicked9" prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: #FFEAFF;">
+               <children>
+                  <Text fill="#ffeaff" layoutX="58.0" layoutY="14.0" strokeType="OUTSIDE" strokeWidth="0.0" text="9">
+                     <font>
+                        <Font name="Times New Roman" size="12.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <Pane fx:id="pane10" onMouseClicked="#Clicked10" prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: #FFEAFF;">
+               <children>
+                  <Text fill="#ffeaff" layoutX="55.0" layoutY="14.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10">
+                     <font>
+                        <Font name="Times New Roman" size="12.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <Pane fx:id="pane11" onMouseClicked="#Clicked11" prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: #FFEAFF;">
+               <children>
+                  <Text fill="#ffeaff" layoutX="55.0" layoutY="14.0" strokeType="OUTSIDE" strokeWidth="0.0" text="11">
+                     <font>
+                        <Font name="Times New Roman" size="12.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <Pane fx:id="pane12" onMouseClicked="#Clicked12" prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: #FFEAFF;">
+               <children>
+                  <Text fill="#ffeaff" layoutX="55.0" layoutY="14.0" strokeType="OUTSIDE" strokeWidth="0.0" text="12">
+                     <font>
+                        <Font name="Times New Roman" size="12.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <Pane fx:id="pane13" onMouseClicked="#Clicked13" prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: #FFEAFF;">
+               <children>
+                  <Text fill="#ffeaff" layoutX="55.0" layoutY="15.0" strokeType="OUTSIDE" strokeWidth="0.0" text="13">
+                     <font>
+                        <Font name="Times New Roman" size="12.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+         </children>
+      </VBox>
+      <TextField fx:id="TextField_URL" layoutX="173.0" layoutY="28.0" prefHeight="25.0" prefWidth="289.0" style="-fx-background-color: #C2C2C2;" />
+      <TextField fx:id="TextField_Class" layoutX="173.0" layoutY="86.0" prefHeight="25.0" prefWidth="289.0" style="-fx-background-color: #C2C2C2;" />
+      <TextField fx:id="TextField_Label" layoutX="173.0" layoutY="144.0" prefHeight="25.0" prefWidth="289.0" style="-fx-background-color: #C2C2C2;" />
+      <Button layoutX="474.0" mnemonicParsing="false" onAction="#Closed" style="-fx-background-color: #1D1D1D; -fx-border-color: #FFEAFF;">
+         <graphic>
+            <FontAwesomeIcon fill="RED" focusTraversable="true" glyphName="CLOSE" />
+         </graphic>
+      </Button>
+      <Button layoutX="304.0" layoutY="222.0" mnemonicParsing="false" onAction="#Validate" style="-fx-background-color: #1D1D1D; -fx-border-color: #FFEAFF;">
+         <graphic>
+            <FontAwesomeIcon fill="#ffeaff" focusTraversable="true" glyphName="CHECK" />
+         </graphic>
+      </Button>
+      <FontAwesomeIcon fill="#ffeaff" glyphName="TRASH" layoutX="204.0" layoutY="207.0" size="2em" wrappingWidth="18.428571701049805" />
+      <CheckBox fx:id="Remove" layoutX="173.0" layoutY="190.0" mnemonicParsing="false" />
+   </children>
+</Pane>

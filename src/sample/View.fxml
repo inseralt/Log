@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="650.0" style="-fx-background-color: null;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerView">
+   <children>
+      <Pane fx:id="MainView" layoutY="15.0" prefHeight="385.0" prefWidth="635.0" style="-fx-background-color: #1D1D1D; -fx-border-color: #FFEAFF;">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <children>
+            <Pane layoutX="82.0" layoutY="15.0" prefHeight="355.0" prefWidth="330.0" style="-fx-border-color: #FFEAFF; -fx-background-color: #1D1D1D;">
+               <children>
+                  <HBox alignment="TOP_CENTER" prefHeight="355.0" prefWidth="330.0" style="-fx-background-color: #1D1D1D; -fx-border-color: #FFEAFF; -fx-border-width: 0.5;">
+                     <children>
+                        <VBox alignment="TOP_CENTER" prefHeight="353.0" prefWidth="0.0" spacing="13.0" HBox.hgrow="NEVER">
+                           <children>
+                              <Text fill="#ffeaff" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+                                 <font>
+                                    <Font name="Times New Roman" size="11.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="#ffeaff" strokeType="OUTSIDE" strokeWidth="0.0" text="2">
+                                 <font>
+                                    <Font name="Times New Roman" size="11.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="#ffeaff" strokeType="OUTSIDE" strokeWidth="0.0" text="3">
+                                 <font>
+                                    <Font name="Times New Roman" size="11.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="#ffeaff" strokeType="OUTSIDE" strokeWidth="0.0" text="4">
+                                 <font>
+                                    <Font name="Times New Roman" size="11.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="#ffeaff" strokeType="OUTSIDE" strokeWidth="0.0" text="5">
+                                 <font>
+                                    <Font name="Times New Roman" size="11.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="#ffeaff" strokeType="OUTSIDE" strokeWidth="0.0" text="6">
+                                 <font>
+                                    <Font name="Times New Roman" size="11.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="#ffeaff" strokeType="OUTSIDE" strokeWidth="0.0" text="7">
+                                 <font>
+                                    <Font name="Times New Roman" size="11.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="#ffeaff" strokeType="OUTSIDE" strokeWidth="0.0" text="8">
+                                 <font>
+                                    <Font name="Times New Roman" size="11.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="#ffeaff" strokeType="OUTSIDE" strokeWidth="0.0" text="9">
+                                 <font>
+                                    <Font name="Times New Roman" size="11.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="#ffeaff" strokeType="OUTSIDE" strokeWidth="0.0" text="10">
+                                 <font>
+                                    <Font name="Times New Roman" size="11.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="#ffeaff" strokeType="OUTSIDE" strokeWidth="0.0" text="11">
+                                 <font>
+                                    <Font name="Times New Roman" size="11.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="#ffeaff" strokeType="OUTSIDE" strokeWidth="0.0" text="12">
+                                 <font>
+                                    <Font name="Times New Roman" size="11.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="#ffeaff" strokeType="OUTSIDE" strokeWidth="0.0" text="13">
+                                 <font>
+                                    <Font name="Times New Roman" size="11.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                           <padding>
+                              <Insets left="2.0" top="10.0" />
+                           </padding>
+                        </VBox>
+                        <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" spacing="10.0" style="-fx-background-color: #1D1D1D;" HBox.hgrow="ALWAYS">
+                           <children>
+                              <Text fx:id="Label1" fill="#ffeaff" strokeType="OUTSIDE" strokeWidth="0.0">
+                                 <font>
+                                    <Font name="Times New Roman" size="14.0" />
+                                 </font></Text>
+                              <Text fx:id="Label2" fill="#ffeaff" strokeType="OUTSIDE" strokeWidth="0.0">
+                                 <font>
+                                    <Font name="Times New Roman" size="14.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="Label3" fill="#ffeaff" strokeType="OUTSIDE" strokeWidth="0.0">
+                                 <font>
+                                    <Font name="Times New Roman" size="14.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="Label4" fill="#ffeaff" strokeType="OUTSIDE" strokeWidth="0.0">
+                                 <font>
+                                    <Font name="Times New Roman" size="14.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="Label5" fill="#ffeaff" strokeType="OUTSIDE" strokeWidth="0.0">
+                                 <font>
+                                    <Font name="Times New Roman" size="14.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="Label6" fill="#ffeaff" strokeType="OUTSIDE" strokeWidth="0.0">
+                                 <font>
+                                    <Font name="Times New Roman" size="14.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="Label7" fill="#ffeaff" strokeType="OUTSIDE" strokeWidth="0.0">
+                                 <font>
+                                    <Font name="Times New Roman" size="14.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="Label8" fill="#ffeaff" strokeType="OUTSIDE" strokeWidth="0.0">
+                                 <font>
+                                    <Font name="Times New Roman" size="14.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="Label9" fill="#ffeaff" strokeType="OUTSIDE" strokeWidth="0.0">
+                                 <font>
+                                    <Font name="Times New Roman" size="14.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="Label10" fill="#ffeaff" strokeType="OUTSIDE" strokeWidth="0.0">
+                                 <font>
+                                    <Font name="Times New Roman" size="14.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="Label11" fill="#ffeaff" strokeType="OUTSIDE" strokeWidth="0.0">
+                                 <font>
+                                    <Font name="Times New Roman" size="14.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="Label12" fill="#ffeaff" strokeType="OUTSIDE" strokeWidth="0.0">
+                                 <font>
+                                    <Font name="Times New Roman" size="14.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="Label13" fill="#ffeaff" strokeType="OUTSIDE" strokeWidth="0.0">
+                                 <font>
+                                    <Font name="Times New Roman" size="14.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </VBox>
+                        <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" spacing="10.0" style="-fx-background-color: #1D1D1D;" HBox.hgrow="ALWAYS">
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                           <children>
+                              <Text fx:id="Label1a" fill="#ffeaff" strokeType="OUTSIDE" strokeWidth="0.0">
+                                 <font>
+                                    <Font name="Times New Roman" size="14.0" />
+                                 </font></Text>
+                              <Text fx:id="Label2a" fill="#ffeaff" strokeType="OUTSIDE" strokeWidth="0.0">
+                                 <font>
+                                    <Font name="Times New Roman" size="14.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="Label3a" fill="#ffeaff" strokeType="OUTSIDE" strokeWidth="0.0">
+                                 <font>
+                                    <Font name="Times New Roman" size="14.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="Label4a" fill="#ffeaff" strokeType="OUTSIDE" strokeWidth="0.0">
+                                 <font>
+                                    <Font name="Times New Roman" size="14.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="Label5a" fill="#ffeaff" strokeType="OUTSIDE" strokeWidth="0.0">
+                                 <font>
+                                    <Font name="Times New Roman" size="14.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="Label6a" fill="#ffeaff" strokeType="OUTSIDE" strokeWidth="0.0">
+                                 <font>
+                                    <Font name="Times New Roman" size="14.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="Label7a" fill="#ffeaff" strokeType="OUTSIDE" strokeWidth="0.0">
+                                 <font>
+                                    <Font name="Times New Roman" size="14.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="Label8a" fill="#ffeaff" strokeType="OUTSIDE" strokeWidth="0.0">
+                                 <font>
+                                    <Font name="Times New Roman" size="14.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="Label9a" fill="#ffeaff" strokeType="OUTSIDE" strokeWidth="0.0">
+                                 <font>
+                                    <Font name="Times New Roman" size="14.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="Label10a" fill="#ffeaff" strokeType="OUTSIDE" strokeWidth="0.0">
+                                 <font>
+                                    <Font name="Times New Roman" size="14.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="Label11a" fill="#ffeaff" strokeType="OUTSIDE" strokeWidth="0.0">
+                                 <font>
+                                    <Font name="Times New Roman" size="14.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="Label12a" fill="#ffeaff" strokeType="OUTSIDE" strokeWidth="0.0">
+                                 <font>
+                                    <Font name="Times New Roman" size="14.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="Label13a" fill="#ffeaff" strokeType="OUTSIDE" strokeWidth="0.0">
+                                 <font>
+                                    <Font name="Times New Roman" size="14.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </VBox>
+                     </children>
+                  </HBox>
+               </children>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Pane>
+            <FontAwesomeIcon fill="#ffeaff" glyphName="PLUS" layoutX="418.0" layoutY="25.0" onMouseClicked="#AddClicked" />
+            <FontAwesomeIcon fill="#ffeaff" glyphName="EDIT" layoutX="418.0" layoutY="44.0" onMouseClicked="#EditClicked" />
+            <Text fill="#ffeaff" layoutX="496.0" layoutY="348.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Refresh sec.">
+               <font>
+                  <Font name="Times New Roman" size="12.0" />
+               </font>
+            </Text>
+            <Text fx:id="R1" fill="#ffeaff" layoutX="465.0" layoutY="369.0" onMouseClicked="#R1c" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+               <font>
+                  <Font name="Times New Roman" size="12.0" />
+               </font>
+            </Text>
+            <Text fx:id="R5" fill="#ffeaff" layoutX="485.0" layoutY="369.0" onMouseClicked="#R5c" strokeType="OUTSIDE" strokeWidth="0.0" text="5">
+               <font>
+                  <Font name="Times New Roman" size="12.0" />
+               </font>
+            </Text>
+            <Text fx:id="R10" fill="#ffeaff" layoutX="505.0" layoutY="369.0" onMouseClicked="#R10c" strokeType="OUTSIDE" strokeWidth="0.0" text="10">
+               <font>
+                  <Font name="Times New Roman" size="12.0" />
+               </font>
+            </Text>
+            <Text fx:id="R30" fill="#ffeaff" layoutX="525.0" layoutY="369.0" onMouseClicked="#R30c" strokeType="OUTSIDE" strokeWidth="0.0" text="30">
+               <font>
+                  <Font name="Times New Roman" size="12.0" />
+               </font>
+            </Text>
+            <Text fx:id="R60" fill="#ffeaff" layoutX="545.0" layoutY="369.0" onMouseClicked="#R60c" strokeType="OUTSIDE" strokeWidth="0.0" text="60">
+               <font>
+                  <Font name="Times New Roman" size="12.0" />
+               </font>
+            </Text>
+            <Text fx:id="R120" fill="#ffeaff" layoutX="565.0" layoutY="369.0" onMouseClicked="#R120c" strokeType="OUTSIDE" strokeWidth="0.0" text="120">
+               <font>
+                  <Font name="Times New Roman" size="12.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane layoutX="450.0">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" onMouseClicked="#ButtonClicked" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/MonitorMin.png" />
+               </image>
+            </ImageView>
+            <Text fx:id="Time" fill="#ffeaff" focusTraversable="true" layoutX="24.0" layoutY="35.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="00:00:00" textAlignment="CENTER">
+               <font>
+                  <Font name="Times New Roman" size="24.0" />
+               </font>
+            </Text>
+            <FontAwesomeIcon fill="#ffeaff" glyphName="CLOSE" layoutX="179.0" layoutY="20.0" onMouseClicked="#Closed" size="1.5em" text="" />
+         </children>
+      </Pane>
+   </children>
+</Pane>
